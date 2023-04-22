@@ -9,7 +9,8 @@ using StudentAPI.Models;
 
 namespace StudentAPI.Controllers
 {
-    [Route("api/[controller]")]
+    //    [Route("api/[controller]")]
+    [Route("/")]
     [ApiController]
     public class StudentController : ControllerBase
     {
