@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Models;
 
 namespace StudentAPI.Controllers
 {
-    //    [Route("api/[controller]")]
-    [Route("/")]
     [ApiController]
+    [Route("api/[controller]/[action]")]
+    //[Route("/")]
     public class StudentController : ControllerBase
     {
         private readonly APIDbContext _context;
@@ -22,7 +17,7 @@ namespace StudentAPI.Controllers
         }
 
         // GET: api/Student
-        [HttpGet]
+        [HttpGet(Name = "GetAllStudents")]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
         {
             return await _context.Students.ToListAsync();

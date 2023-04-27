@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3We2uAO8GEi2AzyMFDdzhwAAAAACAAAAAAADZgAAwAAAABAAAAA/C1CrP5NrmY0hD7r++BeSAAAAAASAAACgAAAAEAAAAB5WGBSNFBgI4fwIUwRsMXGAAAAAFGYmD0wF578UX3s4RKLgFC6vcEEUrHiohLTtRAnCVAlez5mJKhih327oy7CeL+Vf6WYQzwXEtEnb/LtrWlJY072fTnhUhQA6XQstdJZj1nHAK7S6PQiO39n/7FgQUM8vokVy16UpI4Mxoc1jzOJBA5tztU9+Ssmfk9e9/A9++GcUAAAAb/1sR7D0K0SC2Jyhx3Upw51VhTU=</EncryptedPassword>
+    <History>True|2023-04-24T01:23:43.2007481Z;False|2023-04-24T03:21:57.0155993+02:00;False|2023-04-24T03:15:09.6055566+02:00;False|2023-04-24T03:11:05.5710865+02:00;False|2023-04-24T03:07:39.6234759+02:00;True|2023-04-23T18:13:21.6262190+02:00;False|2023-04-23T18:05:53.4091510+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:dotnetappsqldb74dbserver.database.windows.net,1433%3bInitial Catalog=DotNetAppSqlDb_db%3bUser Id=m7mdramadandx%40dotnetappsqldb74dbserver%3bPassword=Mhmd1907%2a%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="StudentAPI.Models.APIDbContext">
+      <Value>Data Source=tcp:dotnetappsqldb74dbserver.database.windows.net,1433%3bInitial Catalog=DotNetAppSqlDb_db%3bUser Id=m7mdramadandx%40dotnetappsqldb74dbserver%3bPassword=Mhmd1907%2a%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

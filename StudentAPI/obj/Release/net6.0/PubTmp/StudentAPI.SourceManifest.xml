@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\web projects\Asp.Net-Core-Web-API-CRUD-Operations\StudentAPI\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="D:\web projects\Asp.Net-Core-Web-API-CRUD-Operations\StudentAPI\obj\Release\net6.0\PubTmp\EFSQLScripts\StudentAPI.Models.APIDbContext.sql" />
+</sitemanifest>

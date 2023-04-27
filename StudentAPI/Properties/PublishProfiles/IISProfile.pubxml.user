@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2023-04-22T11:48:30.2205641Z;False|2023-04-22T12:59:24.0923905+02:00;True|2023-04-22T12:49:41.1479811+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Server=LEPHHRM1382\SQLEXPRESS%3bDatabase=StudentDB%3bTrusted_Connection=True%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="StudentAPI.Models.APIDbContext">
+      <Value>Server=LEPHHRM1382\SQLEXPRESS%3bDatabase=StudentDB%3bTrusted_Connection=True%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

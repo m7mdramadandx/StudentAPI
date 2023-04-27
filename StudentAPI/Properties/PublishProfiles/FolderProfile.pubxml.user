@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\web projects\Asp.Net-Core-Web-API-CRUD-Operations\publish</_PublishTargetUrl>
+    <History>True|2023-04-24T01:21:04.5625456Z;False|2023-04-24T03:20:09.0059729+02:00;False|2023-04-24T03:19:23.1788909+02:00;False|2023-04-24T03:18:58.0968455+02:00;True|2023-04-22T13:47:45.0343409+02:00;True|2023-04-22T13:41:11.5693286+02:00;True|2023-04-22T13:00:42.0363659+02:00;False|2023-04-22T13:00:11.6615901+02:00;True|2023-04-22T12:17:13.2103028+02:00;False|2023-04-22T12:16:58.5504367+02:00;True|2023-04-22T12:14:16.3005869+02:00;True|2023-04-22T12:07:11.9142319+02:00;True|2023-04-22T11:47:24.6482394+02:00;False|2023-04-22T11:46:50.3600874+02:00;True|2023-04-22T11:42:54.7788974+02:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/17/2023 04:59:25</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/22/2023 12:13:39</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:dotnetappsqldb74dbserver.database.windows.net,1433%3bInitial Catalog=DotNetAppSqlDb_db%3bUser Id=m7mdramadandx%40dotnetappsqldb74dbserver%3bPassword=Mhmd1907%2a%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="StudentAPI.Models.APIDbContext">
+      <Value>Data Source=tcp:dotnetappsqldb74dbserver.database.windows.net,1433%3bInitial Catalog=DotNetAppSqlDb_db%3bUser Id=m7mdramadandx%40dotnetappsqldb74dbserver%3bPassword=Mhmd1907%2a%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
